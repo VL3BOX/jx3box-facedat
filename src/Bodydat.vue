@@ -32,7 +32,7 @@
         @click="buildData"
         :disabled="!body_data"
         icon="el-icon-receiving"
-        >导出正式服</el-button
+        >{{ $t('导出正式服') }}</el-button
       >
     </div>
   </div>
